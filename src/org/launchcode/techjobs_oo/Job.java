@@ -99,7 +99,6 @@ public class Job {
 
     @Override
     public String toString() {
-
         if(name == "") {
             name = "Data not available";
         }
@@ -115,8 +114,6 @@ public class Job {
         if(coreCompetency.getValue() == "") {
             coreCompetency.setValue("Data not available");
         }
-
-
         return "\n" +
                 "ID: " + id + "\n" +
                 "Name: " + name + "\n" +

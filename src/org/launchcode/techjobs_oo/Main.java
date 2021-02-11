@@ -14,9 +14,29 @@ public class Main {
         jobs.add(job2);
         jobs.add(job3);
 
-        for (Job job : jobs){
-            System.out.println(job);
-        }
+//        for (Job job : jobs){
+//            System.out.println(job);
+//        }
+
+        System.out.println(job1.getId());
+        System.out.println(job1.getEmployer().getId());
+        System.out.println(job1.getLocation().getId());
+        System.out.println(job1.getPositionType().getId());
+        System.out.println(job1.getCoreCompetency().getId());
+        System.out.println("          ");
+        System.out.println(job2.getId());
+
+        System.out.println(job2.getEmployer().getId());
+        System.out.println(job2.getLocation().getId());
+        System.out.println(job2.getPositionType().getId());
+        System.out.println(job2.getCoreCompetency().getId());
+
+        Employer myEm = new Employer();
+
     }
 
+
+
 }
+
+
